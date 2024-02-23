@@ -756,6 +756,7 @@ class ChatPageState extends State<ChatPage> {
                                                       ),
                                                 onPressed: () {
                                                   setState(() {
+                                                    return;
                                                     isAudio = !isAudio;
                                                   });
                                                 },
